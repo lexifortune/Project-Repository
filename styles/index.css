@@ -1,0 +1,172 @@
+            * {
+                padding: 0;
+                margin: 0;
+            }
+            
+            h1 {
+                font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+                color: darkslategray;
+                font-size: 50px;
+            }
+            
+            .nav {
+                background-color: mediumaquamarine;
+                color: white;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            .nav .container {
+                max-width: 1100px;
+                margin: 0 auto;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .navlinks {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .logo {
+                padding-top: 1%;
+                padding-bottom: 1%;
+                padding-left: 1%;
+                padding-right: 1%;
+            }
+            
+            .container ul li {
+                display: inline-block;
+                padding: 0 10px;
+            }
+            
+            .container .right {
+                display: flex;
+                justify-content: center;
+            }
+            
+            .right div {
+                padding: 0 5px;
+            }
+            
+            a {
+                color: white;
+                text-decoration: none;
+            }
+            
+            .right {
+                font-size: 14px;
+            }
+            
+            h2 {
+                text-decoration: wavy;
+                font-family: Arial, Helvetica, sans-serif;
+                padding-left: 4%;
+                padding-right: 4%;
+                text-align: center;
+                color: darkslategray;
+            }
+            
+            #videos {
+                text-align: left;
+            }
+            
+            iframe {
+                padding-left: 15%;
+                padding-right: 10%;
+            }
+            
+            table,
+            td,
+            th {
+                border: 2px mediumaquamarine solid;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            
+            table {
+                border-collapse: collapse;
+                margin-left: auto;
+                margin-right: auto;
+                width: 80%;
+            }
+            
+            td {
+                text-align: center;
+            }
+            
+            th {
+                background-color: lightgrey;
+            }
+            
+            tr:nth-child(even) {
+                background-color: mintcream;
+            }
+            
+            tr:nth-child(odd) {
+                background-color: lightseagreen;
+            }
+            
+            td:nth-child(2) {
+                text-align: left;
+            }
+            
+            caption {
+                font-size: 20px;
+                font-weight: bold;
+                color: darkslategray;
+            }
+            
+            #everlane {
+                font-size: 14px;
+                color: black;
+                text-align: center;
+                margin-left: 35%;
+                text-decoration: underline;
+            }
+            
+            #kent {
+                font-size: 14px;
+                color: black;
+                text-align: center;
+                margin-left: 35%;
+                text-decoration: underline;
+            }
+            
+            #classic {
+                font-size: 14px;
+                color: black;
+                text-align: center;
+                margin-left: 27%;
+                text-decoration: underline;
+            }
+            
+            #collect {
+                font-size: 14px;
+                color: black;
+                text-align: center;
+                margin-left: 28%;
+                text-decoration: underline;
+            }
+            
+            #threads {
+                font-size: 14px;
+                color: black;
+                text-align: center;
+                margin-left: 25%;
+                text-decoration: underline;
+            }
+            
+            #step {
+                font-size: 14px;
+                color: black;
+                text-align: center;
+                margin-left: 28%;
+                text-decoration: underline;
+            }
+            
+            div,
+            h3 {
+                margin-left: 3%;
+                text-align: center;
+            }
